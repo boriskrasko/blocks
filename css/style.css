@@ -1,0 +1,92 @@
+:root {
+	--darkblue: #134;
+	--brown: #864;
+	--lightgreen: #891;
+	--olive: #873;
+	--green: #693;
+	--pink: #e56;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.darkblue {
+	background-color: var(--darkblue);
+}
+
+.brown{
+	background-color: var(--brown);
+}
+
+.lightgreen {
+	background-color: var(--lightgreen);
+}
+
+.olive {
+	background-color: var(--olive);
+}
+
+.green {
+	background-color: var(--green);
+}
+
+.pink{
+	background-color: var(--pink);
+}
+
+.container {
+	display: flex;
+	justify-content: center;
+	text-align: center;
+}
+
+.row {
+	max-width: 1790px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	text-align: center;
+}
+
+.shadow {
+	box-shadow: -20px 20px 40px gray;
+}
+
+.border {
+	border: 2px solid #eee2;
+	border-radius: 12px;
+}
+
+.box-s {
+	width: 120px;
+	height: 120px;
+	margin: 10px;
+}
+
+.box-m {
+	width: 210px;
+	height: 120px;
+	margin: 10px;
+}
+
+.box-l {
+	width: 300px;
+	height: 120px;
+	margin: 10px;
+}
+
+.box-xl {
+	width: 300px;
+	height: 300px;
+	margin: 20px;
+}
+
+.title {
+	font-family: Roboto, sans-serif;
+	font-size: 56px;
+	color: #424242;
+	padding: 40px;
+}
